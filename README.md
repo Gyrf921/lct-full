@@ -4,6 +4,19 @@
 Ссылка на backend проект: https://github.com/Gyrf921/lct
 Ссылка на frontend проект: https://github.com/KordyD/LDT-hack-track-5-frontend
 
+
+##Аккаунты
+Админ
+Почта/логин: dima@gmail.com
+Пароль: 12345Aa!
+
+Стажер
+Почта/логин: asdfasdf@gmail.com
+Пароль: 12345Aa!
+
+https://ldt-hack-track-5-frontend.vercel.app/
+
+
 ## !!!ВАЖНО!!!
 После входа необходимо удалить из url "login"
 т.е. по этой ссылке -> https://ldt-hack-track-5-frontend.vercel.app/
