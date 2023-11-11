@@ -1,0 +1,8 @@
+.wrapperInput {
+  flex-grow: 1;
+}
+
+.input {
+  border-color: var(--mantine-primary-color-filled);
+  border-radius: var(--mantine-radius-xl);
+}

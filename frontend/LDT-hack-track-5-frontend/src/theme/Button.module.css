@@ -1,0 +1,9 @@
+.root {
+  &[data-variant='unstyled'] {
+    background: none;
+    color: var(--mantine-primary-color-filled);
+    &:active {
+      transform: none;
+    }
+  }
+}

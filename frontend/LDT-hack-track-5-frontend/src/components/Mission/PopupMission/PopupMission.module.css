@@ -1,0 +1,133 @@
+.popupMission__popup {
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto 100px;
+  border-radius: 36px;
+  background: #fff;
+}
+
+.popupMission__container {
+  width: 100%;
+  flex-direction: column;
+  margin: 61px 0 0;
+}
+
+.popupMission__box {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.popupMission__button {
+  background: transparent;
+  color: var(--Primary, #5277f6);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.popupMission__title {
+  color: var(--Primary, #5277f6);
+  max-width: 700px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+}
+
+.popupMission__bag {
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.popupMission__coin {
+  color: var(--text-2, #535353);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.popupMission__boxTime {
+  width: 252px;
+  height: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 36px;
+}
+
+.popupMission__time {
+  color: var(--Primary, #5277f6);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.popupMission__containerText {
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.popupMission__text {
+  color: var(--text-1, #252525);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+
+.popupMission__buttonFinish {
+  display: flex;
+  width: 1084px;
+  height: 90px;
+  padding: 20px 70px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 48px;
+  background: var(--back-back, #f8f8f8);
+  color: var(--Primary, #5277f6);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.popupMission__editRoot {
+  border-radius: 48px;
+  background: #F8F8F8;
+  margin: 60px 0 90px;
+}
+.popupMission__editInner {
+  color: #5277F6;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.popupMission__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.popupMission__textArea {
+  padding: 10px 30px 0;
+  align-items: center;
+  border-radius: 36px;
+  border: 1px solid var(--Primary, #5277F6);
+  height: 150px;
+}
+

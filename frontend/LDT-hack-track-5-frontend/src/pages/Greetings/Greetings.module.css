@@ -1,0 +1,30 @@
+.greetings {
+    background: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.greetings__text {
+    max-width: 500px;
+    color: #333;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.greetings__button {
+    width: 100%;
+    border-radius: 50px;
+    color: #FFF;
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+.greetings__button:last-of-type {
+    margin: 0;
+}

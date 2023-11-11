@@ -1,0 +1,23 @@
+.titleBox {
+  background-color: var(--mantine-color-gray-light);
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  position: relative;
+}
+
+.title {
+  color: var(--mantine-primary-color-filled);
+  align-self: center;
+}
+
+.rightImageWrapper {
+  position: relative;
+}
+
+.image2 {
+  position: absolute;
+  height: 50%;
+  left: -80px;
+  bottom: 0px;
+}

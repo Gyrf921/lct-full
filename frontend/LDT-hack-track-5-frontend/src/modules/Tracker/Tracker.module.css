@@ -1,0 +1,22 @@
+.card {
+  border-radius: var(--mantine-radius-xl);
+  border: 1px solid var(--mantine-color-default-border);
+  padding: 25px 35px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.uncompleted {
+  opacity: 30%;
+}
+
+.itemWrapper {
+  width: 93.5%;
+}
+
+.itemLabel {
+  width: 100%;
+}

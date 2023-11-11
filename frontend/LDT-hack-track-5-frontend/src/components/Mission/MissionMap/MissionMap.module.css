@@ -1,0 +1,21 @@
+.missionmap {
+    max-width: 1100px;
+}
+
+.missionmap__box {
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: none;
+    transition: opacity 0.2s ease, background 0.3s ease;
+    opacity: 0.5;
+}
+
+.missionmap__box:hover {
+    opacity: 1;
+    background: var(--Radial, radial-gradient(43.85% 43.8% at 50% 50.2%, rgba(119, 255, 71, 0.70) 0%, rgba(237, 240, 255, 0.41) 100%));
+}
+
+.missionmap__boxActive {
+    opacity: 1;
+    background: var(--Radial, radial-gradient(43.85% 43.8% at 50% 50.2%, rgba(119, 255, 71, 0.70) 0%, rgba(237, 240, 255, 0.41) 100%));
+}

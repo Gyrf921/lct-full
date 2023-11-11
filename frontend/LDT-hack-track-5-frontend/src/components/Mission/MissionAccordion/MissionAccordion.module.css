@@ -1,0 +1,237 @@
+.missionAccordion {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    margin: 30px 0;
+}
+
+.missionAccordion__admin {
+    border-radius: 36px;
+    background: #FFF;
+    border: 1px solid #5277F6;
+}
+
+.missionAccordion__item {
+    border-radius: 36px;
+    background: #FFF;
+    border: none;
+}
+
+.missionAccordion__label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.missionAccordion__control {
+    border-radius: 36px;
+    margin: 0 auto 30px;
+}
+
+.missionAccordion__chevron {
+    width: 30px;
+}
+@media screen and (max-width: 580px) {
+    .missionAccordion__chevron {
+        width: 25px;
+    }
+}
+
+
+.missionAccordion__control:hover {
+    background: #FFF;
+}
+
+
+.missionAccordion__title {
+    color: #5277F6;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+    margin-bottom: 30px;
+}
+
+.missionAccordion__text {
+    border-radius: 36px;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.missionAccordion__progress {
+    color: #5277F6;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+/*КНОПКА ЗАДАНИЯ*/
+
+.missionAccordion__taskRoot {
+    padding: 0;
+    background: transparent;
+    height: 90px;
+}
+
+.missionAccordion__task:hover {
+    background: rgba(82, 119, 246, 0.1);
+    color: #5277F6;
+}
+
+.missionAccordion__task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #CFCDCD;
+    color: #252525;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.missionAccordion__labelButton {
+    max-width: 800px;
+}
+
+.missionAccordion__EditingTaskRoot {
+    width: 100%;
+    padding: 0;
+    height: 90px;
+    background: transparent;
+    border-bottom: 1px solid #CFCDCD;
+    cursor: default;
+}
+
+.missionAccordion__EditingTaskRoot_delete {
+    opacity: 0.2;
+}
+
+.missionAccordion__EditingTask {
+    color: #252525;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+/*КНОПКА ЗАДАНИЯ*/
+
+.missionAccordion__statusAp {
+    color: #535353;
+    text-align: right;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.missionAccordion__statusDn {
+    color: #5277F6;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.buttonTest {
+    margin: 60px 0 90px;
+    border-radius: 48px;
+    background: #F8F8F8;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .buttonTest {
+        margin: 40px 0 60px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .buttonTest {
+        margin: 20px 0 30px;
+    }
+}
+
+.buttonTestInner {
+    color: #5277F6;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.buttonEditorInner {
+    color: #FFF;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.buttonAddStage {
+    height: 40px;
+    color: #5277F6;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    background: none;
+    border: 1px solid #5277F6;
+    border-radius: 20px ;
+}
+
+/*ПОПАП ДОБАВЛЕНИЯ ЭТАПА*/
+
+.newstage {
+    padding: 15px;
+}
+
+.newstage__title {
+    color: var(--Primary, #5277F6);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.newstage__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.newstage__input {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #5277F6;
+}
+
+.newstage__inputXL {
+    height: 120px;
+    border-radius: 20px;
+    border: 1px solid #5277F6;
+}
+
+
+
+.newstage__button {
+    border-radius: 36px;
+    background: var(--Primary, #5277F6);
+}
+
+/*ПОПАП ДОБАВЛЕНИЯ ЭТАПа*/
+
+
+/*ПОПАП ДОБАВЛЕНИЯ ЗАДАЧИ*/
+.addTask {
+    margin-top: 30px;
+}
+
+.addTaskButton {
+    width: 332px;
+    height: 40px;
+    background: none;
+    border-radius: 20px ;
+}
+
+.addTaskLabel {
+    color: #5277F6;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+}
+/*ПОПАП ДОБАВЛЕНИЯ ЗАДАЧИ*/

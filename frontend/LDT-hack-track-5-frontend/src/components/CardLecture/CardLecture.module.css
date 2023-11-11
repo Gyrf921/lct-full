@@ -1,0 +1,26 @@
+.card {
+  background-color: var(--mantine-primary-color-filled);
+  border-radius: var(--mantine-radius-xl);
+  height: 100%;
+  padding: 25px;
+  box-shadow: var(--mantine-shadow-md);
+}
+
+.text {
+  color: var(--mantine-color-white);
+}
+
+.button {
+  color: var(--mantine-color-white);
+  border-color: var(--mantine-color-white);
+  border-radius: var(--mantine-radius-xl);
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

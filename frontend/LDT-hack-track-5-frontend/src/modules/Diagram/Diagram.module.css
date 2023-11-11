@@ -1,0 +1,11 @@
+.colorValue {
+  color: var(--mantine-color-white);
+  min-width: 40px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  flex-grow: 2;
+}

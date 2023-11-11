@@ -1,0 +1,12 @@
+.link {
+  color: var(--mantine-color-text);
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    color: var(--mantine-primary-color-filled);
+  }
+}
+
+.activeLink {
+  color: var(--mantine-primary-color-filled);
+}

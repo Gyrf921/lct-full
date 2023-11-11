@@ -1,0 +1,26 @@
+.misionAdmin {
+    border-radius: 0px 0px 36px 36px;
+    background: var(--back-back, #F8F8F8);
+}
+.misionAdmin__name {
+    color: #5277F6;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px;
+}
+.misionAdmin__status {
+    color: #535353;
+    text-align: left;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.misionAdmin__department {
+    color: #5277F6;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}

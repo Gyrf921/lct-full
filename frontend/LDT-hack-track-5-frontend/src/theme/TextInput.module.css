@@ -1,0 +1,12 @@
+.input {
+  &[data-variant='primary'] {
+    border: 1px solid var(--mantine-primary-color-filled);
+    border-radius: var(--mantine-radius-xl);
+  }
+}
+
+.root {
+  &[data-variant='primary'] {
+    width: 100%;
+  }
+}

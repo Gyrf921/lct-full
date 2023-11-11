@@ -1,0 +1,22 @@
+.card {
+  box-shadow: var(--mantine-shadow-xl);
+  border-radius: var(--mantine-radius-xl);
+}
+
+.group {
+  display: flex;
+  gap: 35px;
+  overflow-x: scroll;
+}
+
+.wrapperButton {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+  &:active {
+    transform: none;
+  }
+}

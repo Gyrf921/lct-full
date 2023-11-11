@@ -1,0 +1,10 @@
+.modalText {
+  color: var(--mantine-primary-color-filled);
+  text-align: center;
+}
+
+.modalButton {
+  width: 40%;
+  background-color: var(--mantine-color-red-filled);
+  border-radius: var(--mantine-radius-xl);
+}

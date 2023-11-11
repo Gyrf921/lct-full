@@ -1,0 +1,32 @@
+.wrapper {
+  background-color: var(--mantine-color-gray-light);
+  border-radius: var(--mantine-radius-xl);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 15px 25px 0px;
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  width: 70%;
+}
+
+.text {
+  /* text-align: end; */
+  color: var(--mantine-primary-color-filled);
+}
+
+.button {
+  width: 100%;
+  border-radius: var(--mantine-radius-xl);
+  color: var(--mantine-primary-color-filled);
+  background-color: var(--mantine-color-gray-light);
+  &:hover {
+    background-color: var(--mantine-color-gray-light-hover);
+  }
+}

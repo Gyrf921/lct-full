@@ -1,0 +1,22 @@
+.modalTitle {
+  color: var(--mantine-primary-color-filled);
+}
+
+.modalInputRoot {
+  width: 100%;
+}
+
+.modalInput {
+  border-color: var(--mantine-primary-color-filled);
+  border-radius: var(--mantine-radius-xl);
+}
+
+.modalAreaInput {
+  height: 100px;
+  border-color: var(--mantine-primary-color-filled);
+  border-radius: var(--mantine-radius-lg);
+}
+
+.modalButton {
+  border-radius: var(--mantine-radius-lg);
+}

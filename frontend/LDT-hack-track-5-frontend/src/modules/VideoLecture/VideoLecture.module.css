@@ -1,0 +1,42 @@
+.videolecture__input {
+    display: flex;
+    padding: 10px 30px;
+    align-items: center;
+    border-radius: 36px;
+    border: 1px solid var(--Primary, #5277F6);
+}
+
+.videolecture__button {
+    width: 193px;
+    color: #5277F6;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    border-radius: 20px;
+    background: #F8F8F8;
+}
+
+.videolecture__buttonSearch {
+    background: #5277F6;
+    color:  #EEFF87;
+}
+
+.videolecture__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.videolecture__input {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #5277F6;
+}
+
+.videolecture__inputXL {
+    height: 120px;
+    border-radius: 20px;
+    border: 1px solid #5277F6;
+}

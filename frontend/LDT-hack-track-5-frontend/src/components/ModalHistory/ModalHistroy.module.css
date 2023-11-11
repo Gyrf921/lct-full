@@ -1,0 +1,15 @@
+.wrapperHistory {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.history {
+  color: var(--mantine-color-gray-filled);
+  padding: 0;
+  background: none;
+  width: fit-content;
+  &:active {
+    transform: none;
+  }
+}

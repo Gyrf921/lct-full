@@ -1,0 +1,5 @@
+.title {
+  color: var(--mantine-primary-color-filled);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}

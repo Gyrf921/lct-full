@@ -1,0 +1,32 @@
+.card {
+  background-color: var(--mantine-primary-color-filled);
+  border-radius: var(--mantine-radius-xl);
+  padding: 25px;
+}
+
+.group {
+  justify-content: space-between;
+  color: var(--mantine-color-white);
+}
+
+.rootAvatar {
+  width: 70px;
+  height: 70px;
+}
+
+.avatar {
+  color: var(--mantine-primary-color-filled);
+  background-color: var(--mantine-color-white);
+}
+
+.link {
+  color: var(--mantine-color-white);
+}
+
+.name {
+  font-size: 28px;
+}
+
+.grade {
+  font-size: smaller;
+}

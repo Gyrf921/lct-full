@@ -1,0 +1,90 @@
+.register {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.register__form {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+}
+
+.register__title {
+    color: #333333;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.register__inputRoot {
+    width: 100%;
+}
+
+.register__input {
+    width: 100%;
+    height: 98px;
+    padding: 19px 30px;
+    border-radius: 50px;
+    background: #F1F1F1;
+    color: #333333;
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 115%;
+}
+
+.register__button {
+    border-radius: 50px;
+    background: #5277F6;
+    height: 76px;
+    color: #FFF;
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    padding: 10px 40px;
+}
+
+@media screen and (max-width: 800px) {
+    .register__input {
+        height: 78px;
+        padding: 19px 30px;
+        border-radius: 50px;
+        font-size: 20px;
+    }
+
+    .register__button {
+        border-radius: 35px;
+        background: #5277F6;
+        height: 56px;
+        color: #FFF;
+    }
+
+    .register__form {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .register__input {
+        height: 68px;
+        padding: 19px 30px;
+        border-radius: 50px;
+        font-size: 18px;
+    }
+
+    .register__form {
+        gap: 15px;
+    }
+}
+

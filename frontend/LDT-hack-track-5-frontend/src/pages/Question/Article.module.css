@@ -1,0 +1,18 @@
+.box {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  align-items: center;
+}
+
+.modalText {
+  color: var(--mantine-primary-color-filled);
+  text-align: center;
+}
+
+.modalButton {
+  width: 40%;
+  background-color: var(--mantine-color-red-filled);
+  border-radius: var(--mantine-radius-xl);
+}
